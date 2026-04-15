@@ -1,11 +1,11 @@
-# StudentManagementAPI
+# Student Management API
 
 ## Features
-- ASP.NET Core Web API
+- CRUD operations
 - JWT Authentication
-- CRUD Operations
-- Swagger UI
-- SQL Server
+- Global Exception Handling
+- Serilog Logging
+- Swagger Documentation
 
 ## Setup
 1. Clone repo
@@ -14,3 +14,10 @@
    dotnet ef database update
 4. Run project:
    dotnet run
+
+## API Endpoints
+- POST /api/auth/login
+- GET /api/student
+- POST /api/student
+- PUT /api/student
+- DELETE /api/student/{id}
